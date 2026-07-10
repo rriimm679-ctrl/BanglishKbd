@@ -937,7 +937,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
             } else {
                 window.getInsetsController().setSystemBarsAppearance(0, flag);
             }
-private String convertToBanglish(String s) {
+                private String convertToBanglish(String s) {
         if (s == null || s.isEmpty()) return s;
         s = s.replace("ক্ষ", "kkh").replace("জ্ঞ", "ggo").replace("ঞ্চ", "nch")
              .replace("ঞ্জ", "nj").replace("ঙ্গ", "ng").replace("ঙ্ক", "nk")
@@ -970,4 +970,4 @@ private String convertToBanglish(String s) {
         if (p != null) {
             p.onTextInput(text);
         }
-                     }
+        }
