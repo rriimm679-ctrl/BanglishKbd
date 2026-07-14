@@ -954,3 +954,4 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
         updateStateAfterInputTransaction(completeInputTransaction);
         mKeyboardSwitcher.onEvent(event, getCurrentAutoCapsState(), getCurrentRecapitalizeState());
     }
+}
